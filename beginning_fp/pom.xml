@@ -24,5 +24,7 @@
   </dependencies>
   <modules>
     <module>ch1</module>
+    <module>ch2</module>
+    <module>ch3</module>
   </modules>
 </project>
