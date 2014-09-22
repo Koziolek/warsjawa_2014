@@ -20,17 +20,12 @@ import static java.nio.charset.Charset.defaultCharset;
  * TODO write JAVADOC!!!
  * User: koziolek
  */
-public class FileReaderViaSupplier implements Supplier<String>{
+public class FileReaderViaSupplier<T> implements Supplier<T>{
 
 	private BufferedReader bufferedReader;
 
 	@Override
-	public String get() {
-		try {
-			return  bufferedReader.readLine();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+	public T get() {
 		return null;
 	}
 }

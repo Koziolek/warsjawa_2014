@@ -6,9 +6,9 @@ import java.util.function.Supplier;
  * TODO write JAVADOC!!!
  * User: koziolek
  */
-public class FileReaderViaSupplier implements Supplier {
+public class FileReaderViaSupplier<T> implements Supplier<T> {
 	@Override
-	public Object get() {
+	public T get() {
 		return null;
 	}
 }
