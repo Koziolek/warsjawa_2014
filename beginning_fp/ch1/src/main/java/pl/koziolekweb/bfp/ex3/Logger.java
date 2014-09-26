@@ -4,12 +4,16 @@ package pl.koziolekweb.bfp.ex3;
  * TODO write JAVADOC!!!
  * User: koziolek
  */
-public interface Logger<T> {
+public interface Logger {
 
-	void debug(T t);
+	enum Level {DEBUG, INFO, ERROR}
 
-	void info(T t);
+	void debug(String message);
 
-	void error(T t);
+	void info(String message);
+
+	void error(String message);
+
+	void log(Level lvl, String message);
 
 }

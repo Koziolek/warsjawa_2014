@@ -1,4 +1,4 @@
-package pl.koziolekweb.bfp.ex2.guava;
+package pl.koziolekweb.bfp.ex2;
 
 import java.util.Iterator;
 

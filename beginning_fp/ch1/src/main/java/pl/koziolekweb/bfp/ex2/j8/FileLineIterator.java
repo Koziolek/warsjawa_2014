@@ -1,6 +1,6 @@
-package pl.koziolekweb.bfp.ex2.guava;
+package pl.koziolekweb.bfp.ex2.j8;
 
-import com.google.common.base.Supplier;
+import java.util.function.Supplier;
 
 /**
  * TODO write JAVADOC!!!
@@ -9,5 +9,6 @@ import com.google.common.base.Supplier;
 public class FileLineIterator<T> {
 
 	private Supplier<T> supplier;
+
 
 }
