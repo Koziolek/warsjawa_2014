@@ -6,5 +6,17 @@ package pl.koziolekweb.bfp.ex1;
  */
 public class Artist {
 
-	String name;
+	private String name;
+
+	public Artist(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public Artist setName(String name) {
+		return new Artist(name);
+	}
 }
